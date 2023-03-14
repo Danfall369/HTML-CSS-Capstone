@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 65px;
+  background: white;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.mobilemenu {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
+.mobilePop {
+  display: none;
+}
+
+#hero {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 30rem;
+  background-image: url(/assets/mobileBackground.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainTitle:nth-child(1) {
+  font-family: "Lato", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  color: rgb(255, 17, 0);
+}
+
+.mainTitle:nth-child(2) {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: rgb(255, 17, 0);
+  padding-bottom: 30px;
+}
+
+.mainSubtheme {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #515151;
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.mainDate {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #595959;
+}
+
+.mainLocate {
+  font-family: "Gothic A1";
+  font-weight: 700;
+  font-size: 13px;
+  color: #868686;
+  padding-bottom: 66px;
+}
