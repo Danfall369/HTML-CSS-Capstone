@@ -4,12 +4,13 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 .navbar {
   display: flex;
   justify-content: flex-start;
   gap: 65px;
   background: white;
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .mobileMenu {
@@ -70,7 +71,7 @@
 }
 
 .heroLocate {
-  font-family: "Gothic A1";
+  font-family: "Gothic A1", sans-serif;
   font-weight: 700;
   font-size: 13px;
   color: #868686;
@@ -109,7 +110,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   grid-row-gap: 1px;
   padding-top: 25px;
 }
@@ -121,11 +122,10 @@
   background: #3b3e45;
   padding-left: 7px;
   margin: 0 15px 0 15px;
-  backdrop-filter: blur(0.5);
 }
 
 .mainTheme {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 14.2712px;
   line-height: 25px;
@@ -134,12 +134,12 @@
 
 .mainExp {
   width: 50%;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
   line-height: 22px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .mainButton {
@@ -151,7 +151,7 @@
   font-weight: 900;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 30px;
 }
 
@@ -176,7 +176,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   grid-row-gap: 9px;
 }
 
