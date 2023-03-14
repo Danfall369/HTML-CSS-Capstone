@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 .navbar {
   display: flex;
@@ -11,7 +12,7 @@
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.mobilemenu {
+.mobileMenu {
   margin-top: 14px;
   margin-left: 15px;
 }
@@ -32,22 +33,24 @@
   background-position: center;
 }
 
-.mainTitle:nth-child(1) {
+.heroTitle:nth-child(1) {
   font-family: "Lato", sans-serif;
   font-size: 23px;
   font-weight: 400;
   color: rgb(255, 17, 0);
+  margin: 0 15px 0 15px;
 }
 
-.mainTitle:nth-child(2) {
+.heroTitle:nth-child(2) {
   font-family: "Lato", sans-serif;
   font-size: 35px;
   font-weight: 800;
   color: rgb(255, 17, 0);
   padding-bottom: 30px;
+  margin: 0 15px 0 15px;
 }
 
-.mainSubtheme {
+.heroSubtheme {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -55,19 +58,168 @@
   color: #515151;
   background: #fff;
   padding-bottom: 50px;
+  margin: 0 15px 0 15px;
 }
 
-.mainDate {
+.heroDate {
   font-family: "Gothic A1", sans-serif;
   font-weight: 900;
   font-size: 20px;
   color: #595959;
+  margin: 0 15px 0 15px;
 }
 
-.mainLocate {
+.heroLocate {
   font-family: "Gothic A1";
   font-weight: 700;
   font-size: 13px;
   color: #868686;
   padding-bottom: 66px;
+  margin: 0 15px 0 15px;
+}
+
+#mainProgram {
+  border: 2px solid orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 34rem;
+  background-image: url(/assets/mainProgram/programBackground.png);
+  background-color: #282b32;
+  background-repeat: repeat;
+}
+
+.mainTitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.mainTitleMark {
+  border: 2px solid #a04038;
+  width: 35%;
+  margin-left: 45px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 1px;
+  padding-top: 25px;
+}
+
+.mainSlice {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  background: #3b3e45;
+  padding-left: 7px;
+  margin: 0 15px 0 15px;
+  backdrop-filter: blur(0.5);
+}
+
+.mainTheme {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14.2712px;
+  line-height: 25px;
+  color: #ff5438;
+}
+
+.mainExp {
+  width: 50%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.mainButton {
+  width: 300px;
+  height: 68px;
+  background: #ff4f38;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+#speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgreen;
+}
+
+.featuredTitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.speakersGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 9px;
+}
+
+.speakersCards {
+  display: flex;
+  margin: 0 15px 0 15px;
+}
+
+.speakersInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+
+.speakersName {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.speakersjob {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 9.5px;
+  line-height: 15px;
+  color: #f78c89;
+}
+
+.speakersResume {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 14px;
+}
+
+.speakersButton {
+  width: 95%;
+  height: 38px;
+  border: 1px solid #dcdcdc;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  margin-top: 30px;
 }
