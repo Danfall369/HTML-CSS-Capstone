@@ -10,6 +10,8 @@
 .navbar {
   display: flex;
   justify-content: flex-start;
+  position: fixed;
+  width: 100vw;
   gap: 65px;
   background: white;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75);
@@ -18,6 +20,11 @@
 .mobileMenu {
   margin-top: 14px;
   margin-left: 15px;
+  cursor: pointer;
+}
+
+.mobileMenuIcon {
+  position: fixed;
 }
 
 .mobilePop {
@@ -48,10 +55,8 @@
 .mobileAitem:visited {
   text-decoration: none;
 }
-
 /* -------------------- Hero -------------------- */
 #hero {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
