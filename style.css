@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 /* -------------------- NAVBAR -------------------- */
 .navbar {
   display: flex;
@@ -374,7 +375,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   grid-row-gap: 10px;
 }
 
@@ -394,7 +395,7 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 28px;
-  color: #ffffff;
+  color: #fff;
   padding-top: 40px;
   margin-bottom: 10px;
 }
