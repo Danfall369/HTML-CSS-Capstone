@@ -21,6 +21,7 @@
   margin-top: 14px;
   margin-left: 15px;
   cursor: pointer;
+  position: fixed;
 }
 
 .mobileMenuIcon {
@@ -54,6 +55,10 @@
 .mobileAitem:link,
 .mobileAitem:visited {
   text-decoration: none;
+}
+
+.logo {
+  margin-left: 60px;
 }
 /* -------------------- Hero -------------------- */
 #hero {
