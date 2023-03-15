@@ -119,12 +119,11 @@
 
 /* -------------------- Main Program -------------------- */
 #mainProgram {
-  border: 2px solid orangered;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 34rem;
+  height: 38rem;
   background-image: url(/assets/mainProgram/programBackground.png);
   background-color: #282b32;
   background-repeat: repeat;
@@ -179,6 +178,7 @@
   font-weight: 700;
   font-size: 10px;
   line-height: 22px;
+  margin: 5px 5px 5px 5px;
   color: #fff;
 }
 
@@ -198,10 +198,10 @@
 /* -------------------- Speakers -------------------- */
 #speakers {
   width: 100vw;
+  height: 61rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid lightgreen;
 }
 
 .speakersTitle {
