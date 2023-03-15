@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 /* -------------------- NAVBAR -------------------- */
@@ -20,7 +21,32 @@
 }
 
 .mobilePop {
-  display: none;
+  display: block;
+  position: fixed;
+  width: 50vh;
+  height: 100vh;
+  background-color: rgba(41, 43, 46, 0.96);
+  padding: 50px;
+  transform: translateX(-500px);
+  transition: 0.5s;
+}
+
+.showmenu {
+  transform: translateX(0px);
+}
+
+.mobileItem {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #ff5438;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.mobileAitem:link,
+.mobileAitem:visited {
+  text-decoration: none;
 }
 
 /* -------------------- Hero -------------------- */
@@ -115,7 +141,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0;
-  grid-row-gap: 1px;
+  grid-row-gap: 5px;
   padding-top: 25px;
 }
 
