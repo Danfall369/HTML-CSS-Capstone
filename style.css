@@ -161,6 +161,11 @@
   background: #3b3e4560;
   padding-left: 7px;
   margin: 0 15px 0 15px;
+  transition: 200ms ease-in-out;
+}
+
+.mainSlice:hover {
+  transform: scale(1.1);
 }
 
 .mainTheme {
@@ -183,7 +188,7 @@
 }
 
 .mainButton {
-  width: 270px;
+  width: 250px;
   height: 65px;
   background: #ff4f38;
   border: none;
@@ -193,6 +198,15 @@
   line-height: 28px;
   color: #fff;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.mainButton:hover {
+  transform: scale(1.1);
+}
+
+.mainButton:active {
+  transform: scale(1);
 }
 
 /* -------------------- Speakers -------------------- */
@@ -226,6 +240,11 @@
 .speakersCards {
   display: flex;
   margin: 0 15px 0 15px;
+  transition: 300ms ease-in-out;
+}
+
+.speakersCards:hover {
+  transform: scale(1.1);
 }
 
 .speakersInfo {
@@ -265,6 +284,15 @@
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
   border-radius: 4px;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.speakersButton:hover {
+  transform: scale(1.1);
+}
+
+.speakersButton:active {
+  transform: scale(1);
 }
 
 /* -------------------- About -------------------- */
