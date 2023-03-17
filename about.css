@@ -26,6 +26,7 @@
   margin: 10px 10px;
   padding: 2px 0 0 6px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .mobileMenu span {
@@ -63,7 +64,7 @@
 }
 
 .showmenu {
-  transform: translateX(0);
+  transform: translateX(-3.5rem);
 }
 
 .mobileItem {
