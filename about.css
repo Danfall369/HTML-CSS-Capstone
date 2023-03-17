@@ -15,18 +15,16 @@
   width: 100vw;
   display: flex;
   justify-content: flex-start;
-  background: rgba(255, 255, 255, 0);
-  /* box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75); */
+  background: #272a3100;
 }
 
 .mobileMenu {
   width: 9%;
   height: 35px;
-  margin-left: 10px;
   background-color: #d3d3d3;
   border-radius: 10px;
-  margin: 10px 0px 0px 10px;
-  padding: 2px 0px 0px 6px;
+  margin: 10px 10px;
+  padding: 2px 0 0 6px;
   cursor: pointer;
 }
 

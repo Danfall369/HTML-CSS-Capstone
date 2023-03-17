@@ -4,7 +4,7 @@ const menu = document.querySelector('.mobilePop');
 
 logo.addEventListener('click', () => {
   menu.classList.toggle('showmenu');
-  logo.classList.toggle('active')
+  logo.classList.toggle('active');
 });
 
 document.querySelectorAll('.mobileItem').forEach((n) => n.addEventListener('click', () => {
