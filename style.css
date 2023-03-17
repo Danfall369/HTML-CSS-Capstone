@@ -40,7 +40,7 @@
 }
 
 .showmenu {
-  transform: translateX(0px);
+  transform: translateX(0);
 }
 
 .mobileItem {
@@ -79,11 +79,11 @@
   }
 
   .navBannerText {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .navbar {
@@ -111,11 +111,11 @@
     justify-content: center;
     position: absolute;
     gap: 85px;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     background-color: #fff;
-    padding: 0px;
-    transform: translateX(0px);
+    padding: 0;
+    transform: translateX(0);
   }
 
   .mobileItem {
@@ -134,6 +134,7 @@
     color: #f07f7e;
   }
 }
+
 /* -------------------- Hero -------------------- */
 #hero {
   width: 100vw;
@@ -170,8 +171,8 @@
   line-height: 17px;
   color: #fff;
   background: #3b3e45a8;
-  margin: 0px 20px 40px 20px;
-  padding: 25px 0 25px 0px;
+  margin: 0 20px 40px 20px;
+  padding: 25px 0 25px 0;
   border-radius: 40px;
   text-align: center;
   width: 90%;
@@ -343,7 +344,7 @@
   .mainTitle {
     font-size: 30px;
     line-height: 28px;
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 15px;
   }
 
@@ -359,7 +360,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 5px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0;
     width: 80%;
     margin-top: 60px;
   }
@@ -370,8 +371,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0;
+    margin: 0;
   }
 
   .mainTheme {
@@ -407,6 +408,7 @@
     color: #fff;
   }
 }
+
 /* -------------------- Speakers -------------------- */
 #speakers {
   width: 100vw;
@@ -496,7 +498,7 @@
 @media screen and (min-width: 1024px) {
   #speakers {
     height: 34rem;
-    padding: 0px 90px 0 90px;
+    padding: 0 90px 0 90px;
   }
 
   .speakersGrid {
@@ -564,6 +566,7 @@
     margin: 0 15px 0 15px;
   }
 }
+
 /* -------------------- Footer -------------------- */
 #footer {
   display: none;

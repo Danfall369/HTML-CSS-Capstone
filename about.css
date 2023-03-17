@@ -39,7 +39,7 @@
 }
 
 .showmenu {
-  transform: translateX(0px);
+  transform: translateX(0);
 }
 
 .mobileItem {
@@ -78,11 +78,11 @@
   }
 
   .navBannerText {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .navbar {
@@ -110,11 +110,11 @@
     justify-content: center;
     position: absolute;
     gap: 85px;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     background-color: #fff;
-    padding: 0px;
-    transform: translateX(0px);
+    padding: 0;
+    transform: translateX(0);
   }
 
   .mobileItem {
@@ -134,6 +134,7 @@
     color: #f07f7e;
   }
 }
+
 /* -------------------- About -------------------- */
 #About {
   display: flex;
@@ -142,7 +143,7 @@
   align-items: center;
   width: 100vw;
   height: 30rem;
-  background-image: url(/assets/About/forensic\ wllpper.png);
+  background-image: url(../assets/About/forensic\ wllpper.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -212,7 +213,7 @@
     align-items: center;
     width: 100vw;
     height: 48rem;
-    background-image: url(/assets/About/mobile\ background.webp);
+    background-image: url(../assets/About/mobile\ background.webp);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -227,7 +228,7 @@
     font-size: 50px;
     font-weight: 800;
     color: rgb(255, 100, 89);
-    padding-bottom: 0px;
+    padding-bottom: 0;
     margin: 0 auto;
     text-align: center;
   }
@@ -264,6 +265,7 @@
     margin-bottom: 20px;
   }
 }
+
 /* -------------------- Creative Commons -------------------- */
 #creative {
   width: 100vw;
@@ -315,7 +317,7 @@
   .creativeTitle {
     font-size: 30px;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .creativeTittleMark {
@@ -339,9 +341,9 @@
     letter-spacing: -0.03em;
     margin: 0 auto;
     color: #838383;
-    text-align: center;
   }
 }
+
 /* -------------------- CC Globals -------------------- */
 #ccglobals {
   display: flex;
@@ -399,7 +401,7 @@
   .ccglobalsTitle {
     font-size: 30px;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .ccglobalsText {
@@ -413,7 +415,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0;
   }
 
   .ccglobalsImg2 {
@@ -467,6 +469,7 @@
     display: none;
   }
 }
+
 /* -------------------- Footer -------------------- */
 #footer {
   display: flex;
