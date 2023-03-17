@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <img src="./Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Capstone Project</b></h3>
