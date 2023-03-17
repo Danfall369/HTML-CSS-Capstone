@@ -111,6 +111,7 @@
   }
 
   .navbar {
+    position: absolute;
     width: 100vw;
     display: flex;
     background: #fff;
