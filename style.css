@@ -40,7 +40,7 @@
 }
 
 .showmenu {
-  transform: translateX(0px);
+  transform: translateX(0);
 }
 
 .mobileItem {
@@ -60,6 +60,7 @@
 .logo {
   margin-left: 60px;
 }
+
 /* -------------------- Hero -------------------- */
 #hero {
   display: flex;
