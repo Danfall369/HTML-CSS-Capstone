@@ -4,7 +4,7 @@
   <img src=".Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Project</b></h3>
+  <h3><b>Capstone Project</b></h3>
 
 </div>
 
@@ -31,10 +31,10 @@
 - [📝 License](#license)
 
 
-# 📖 Portfolio Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
 
-**Portfolio Project** is a project about making a mobile responsive web portfolio
+**Capstone Project** is a project about making a mobile and desktop responsive web page
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -126,16 +126,6 @@ You can deploy this project using:
 
 - GitHub: [@Danfall369](https://github.com/Danfall369)
 - Twitter: [@Danfall369](https://twitter.com/Danfall369)
-
-👤 **Jose Berbesí**
-
-- GitHub: [imberbesi](https://github.com/imberbesi)
-- Gmail: (jlberbessi@gmail.com)
-
-👤 **Alejandro Velasquez**
-
-- GitHub: [imberbesi](https://github.com/VelzckC0D3)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
