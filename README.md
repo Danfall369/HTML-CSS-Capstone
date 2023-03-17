@@ -84,7 +84,7 @@ Clone this repository to your desired folder:
 
 -sh
   cd (your folder)
-  git clone git@github.com:Danfall369/-Hello-Microverse---Project.git
+  https://github.com/Danfall369/Capstone.git
 
 ### Install
 
@@ -106,6 +106,7 @@ To run tests, run the following command:
 <ul>
   <li>to use in HTML file use this command line in the console: npx hint .</li>
   <li>to use in a CSS file use this command line in the console: npx stylelint "**/*.{css,scss}"</li>
+  to use in a JS file, use this command lune in the console: npx eslint .
 </ul>
 
 ### Deployment
