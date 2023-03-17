@@ -142,7 +142,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(../assets/mainBG2.jpg);
+  background-image: url(./assets/mainBG2.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -200,7 +200,7 @@
     width: 100vw;
     justify-content: space-evenly;
     height: 56rem;
-    background-image: url(../assets/mainBG.jpg);
+    background-image: url(./assets/mainBG.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -248,7 +248,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../assets/mainProgram/esposas.png);
+  background-image: url(./assets/mainProgram/esposas.png);
   background-size: 5%;
   background-color: #282b32;
   background-repeat: repeat;
