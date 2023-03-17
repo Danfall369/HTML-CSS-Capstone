@@ -12,20 +12,46 @@
 }
 
 .navbar {
+  position: fixed;
   width: 100vw;
   display: flex;
   justify-content: flex-start;
-  gap: 65px;
-  background: white;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0);
+  /* box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75); */
 }
 
 .mobileMenu {
-  position: fixed;
-  margin-top: 14px;
-  margin-left: 15px;
+  width: 9%;
+  height: 35px;
+  margin-left: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 0px 0px 10px;
+  padding: 2px 0px 0px 6px;
   cursor: pointer;
-  z-index: 1;
+}
+
+.mobileMenu span {
+  display: block;
+  width: 75%;
+  height: 2px;
+  background: rgb(87, 87, 87);
+  margin-top: 6px;
+  transform-origin: 0 100%;
+  transition: all 300ms;
+}
+
+.mobileMenu.active .menu-bar1:nth-child(1) {
+  transform: rotate(45deg) translate(3px, -2px);
+}
+
+.mobileMenu.active .menu-bar2:nth-child(2) {
+  opacity: 0;
+  margin-left: -30px;
+}
+
+.mobileMenu.active .menu-bar3:nth-child(3) {
+  transform: rotate(-45deg) translate(3px, 3px);
 }
 
 .mobilePop {
