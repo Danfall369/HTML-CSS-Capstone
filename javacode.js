@@ -9,6 +9,7 @@ logo.addEventListener('click', () => {
 
 document.querySelectorAll('.mobileItem').forEach((n) => n.addEventListener('click', () => {
   menu.classList.remove('showmenu');
+  logo.classList.remove('active');
 }));
 
 /* Object Array (Speakers) */
