@@ -60,7 +60,7 @@ speakers.forEach((result) => {
   speakersCards.classList.add('speakersCards');
   const speakersCardsCont = `<div class="speakersCards">
   <img
-    src="${result.pic}"
+    src="${result.pic[0]}"
     alt="Speakers"
     class="speakersImg"
   />
