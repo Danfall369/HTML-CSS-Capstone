@@ -63,6 +63,13 @@
 
 - https://danfall369.github.io/Capstone/index.html
 
+<p>Mobil Version:</p>
+<img src="./assets/mobile.gif" alt="mobile live"/>
+
+
+<p>Desktop Version</p>
+<img src="./assets/Desktop.gif" alt="Desktop Live"/>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
