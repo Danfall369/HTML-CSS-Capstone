@@ -16,7 +16,7 @@
   width: 100vw;
   display: flex;
   justify-content: flex-start;
-  background: rgba(255, 255, 255, 0);
+  background: #272a31;
   /* box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75); */
 }
 
@@ -24,7 +24,7 @@
   width: 9%;
   height: 35px;
   margin-left: 10px;
-  background-color: #fff;
+  background-color: #d3d3d3;
   border-radius: 10px;
   margin: 10px 0px 0px 10px;
   padding: 2px 0px 0px 6px;
@@ -59,7 +59,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-color: rgba(41, 43, 46, 0.96);
+  background-color: #272a31;
   padding: 50px;
   transform: translateX(-100rem);
   transition: 0.5s ease;
@@ -91,7 +91,7 @@
   .navBanner {
     width: 100vw;
     display: block;
-    background: #3e3e3e;
+    background: #272a31;
   }
 
   .navBannerList {
@@ -109,7 +109,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .navbar {
@@ -140,7 +140,7 @@
     gap: 85px;
     width: 0;
     height: 0;
-    background-color: #fff;
+    background-color: #d3d3d3;
     padding: 0;
     transform: translateX(0);
   }
@@ -152,13 +152,13 @@
     line-height: 0px;
     display: flex;
     align-items: center;
-    color: #868686;
+    color: #272a31;
     cursor: pointer;
     transition: 200ms;
   }
 
   .mobileItem:hover {
-    color: #f07f7e;
+    color: #ec5242;
   }
 }
 
@@ -178,7 +178,7 @@
   font-family: "Lato", sans-serif;
   font-size: 23px;
   font-weight: 400;
-  color: rgb(255, 100, 89);
+  color: #ec5242;
   margin: 0 15px 0 15px;
 }
 
@@ -186,7 +186,7 @@
   font-family: "Lato", sans-serif;
   font-size: 35px;
   font-weight: 800;
-  color: rgb(255, 100, 89);
+  color: #ec5242;
   padding-bottom: 30px;
   margin: 0 15px 0 15px;
 }
@@ -196,8 +196,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 17px;
-  color: #fff;
-  background: #3b3e45a8;
+  color: #d3d3d3;
+  background: #272a31;
   margin: 0 20px 40px 20px;
   padding: 25px 0 25px 0;
   border-radius: 40px;
@@ -209,7 +209,7 @@
   font-family: "Gothic A1", sans-serif;
   font-weight: 900;
   font-size: 20px;
-  color: #595959;
+  color: #d3d3d3;
   margin: 0 15px 0 15px;
 }
 
@@ -217,7 +217,7 @@
   font-family: "Gothic A1", sans-serif;
   font-weight: 700;
   font-size: 13px;
-  color: #868686;
+  color: #d3d3d3;
   padding-bottom: 40px;
   margin: 0 15px 0 15px;
 }
@@ -277,7 +277,7 @@
   align-items: center;
   background-image: url(./assets/mainProgram/esposas.png);
   background-size: 5%;
-  background-color: #282b32;
+  background-color: #272a31;
   background-repeat: repeat;
 }
 
@@ -286,7 +286,7 @@
   font-weight: 400;
   font-size: 23px;
   line-height: 28px;
-  color: #fff;
+  color: #d3d3d3;
   padding-top: 20px;
   padding-bottom: 6px;
 }
@@ -310,7 +310,7 @@
   display: flex;
   align-items: center;
   gap: 36px;
-  background: #3b3e4560;
+  background: #272a31;
   padding-left: 7px;
   margin: 0 15px 0 15px;
   transition: 200ms ease-in-out;
@@ -325,7 +325,7 @@
   font-weight: 700;
   font-size: 14.2712px;
   line-height: 25px;
-  color: #ff5438;
+  color: #ec5242;
 }
 
 .mainExp {
@@ -336,19 +336,19 @@
   font-size: 10px;
   line-height: 22px;
   margin: 5px 5px 5px 5px;
-  color: #fff;
+  color: #d3d3d3;
 }
 
 .mainButton {
   width: 250px;
   height: 65px;
-  background: #ff4f38;
+  background: #ec5242;
   border: none;
   font-family: "Lato", sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 28px;
-  color: #fff;
+  color: #d3d3d3;
   margin-top: 40px;
   cursor: pointer;
 }
@@ -405,7 +405,7 @@
   .mainTheme {
     font-size: 24px;
     line-height: 25px;
-    color: #ff5438;
+    color: #ec5242;
   }
 
   .mainExp {
@@ -415,7 +415,7 @@
     font-size: 12px;
     line-height: 22px;
     margin: 5px 5px 5px 5px;
-    color: #fff;
+    color: #d3d3d3;
     text-align: center;
   }
 
@@ -432,7 +432,7 @@
   }
 
   .mainLink:visited {
-    color: #fff;
+    color: #d3d3d3;
   }
 }
 
@@ -494,7 +494,7 @@
   font-weight: 700;
   font-size: 9.5px;
   line-height: 15px;
-  color: #f78c89;
+  color: #ec5242;
 }
 
 .speakersResume {
@@ -550,11 +550,11 @@
   }
 
   .speakersLink:link {
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .speakersLink:visited {
-    color: #fff;
+    color: #d3d3d3;
   }
 }
 
@@ -571,7 +571,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background: #414246;
+    background: #272a31;
   }
 
   .partnerTitle {
@@ -579,7 +579,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 28px;
-    color: #fff;
+    color: #d3d3d3;
     padding-top: 40px;
     margin-bottom: 10px;
   }
@@ -632,7 +632,7 @@
     line-height: 13px;
     width: 45%;
     height: 30px;
-    color: #3b3e45;
+    color: #272a31;
     font-size: 16px;
   }
 }
