@@ -164,6 +164,6 @@ I would like to thanks to a Microverse fort the support!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](.Readme/LICENSE) licensed.
+This project is [MIT](./Readme/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
