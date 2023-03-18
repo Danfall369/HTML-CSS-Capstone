@@ -224,22 +224,25 @@
 @media screen and (min-width: 1024px) {
   #hero {
     width: 100vw;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 56rem;
     background-image: url(./assets/mainBG.jpg);
     background-position: center;
     background-size: cover;
+    padding-top: 6rem;
   }
 
   .heroTitle:nth-child(1) {
     font-size: 40px;
     margin: 0 auto;
+    padding-right: 7rem;
   }
 
   .heroTitle:nth-child(2) {
     width: 53%;
     font-size: 65px;
     margin: 0 auto;
+    padding-bottom: 4rem;
   }
 
   .heroSubtheme {
@@ -248,6 +251,7 @@
     font-size: 26px;
     line-height: 36px;
     margin: 0 auto;
+    margin-bottom: 7rem;
   }
 
   .heroDate {
@@ -264,6 +268,7 @@
     font-size: 27px;
     line-height: 0px;
     margin: 0 auto;
+    padding-left: 3rem;
   }
 }
 
