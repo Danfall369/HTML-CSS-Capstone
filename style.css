@@ -314,7 +314,7 @@
   display: flex;
   align-items: center;
   gap: 36px;
-  background: #272a31;
+  background: #d3d3d32d;
   padding-left: 7px;
   margin: 0 15px 0 15px;
   transition: 200ms ease-in-out;
