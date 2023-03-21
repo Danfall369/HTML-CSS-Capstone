@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Daniel Falcon" />
     <meta name="description" content="microverse capstone" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,58 +24,91 @@
 
   <body>
     <nav>
-      <div class="navbar">
-        <ul class="mobilePop">
-          <a class="mobileAitem" href="/index.html">
-            <li class="mobileItem">Main</li></a
-          >
-          <a class="mobileAitem" href="#creative">
-            <li class="mobileItem">Creative Commons</li></a
-          >
-          <a class="mobileAitem" href="#ccglobals">
-            <li class="mobileItem">CC Global Summits</li></a
-          >
-          <a class="mobileAitem" href="#partner">
-            <li class="mobileItem">Partners</li></a
-          >
+      <section class="navBanner">
+        <ul class="navBannerList">
+          <li class="navBannerIcon">
+            <img src="./assets/navBanner/facebook.svg" alt="facebook" />
+          </li>
+          <li class="navBannerIcon">
+            <img src="./assets/navBanner/twitter.svg" alt="twitter" />
+          </li>
+          <li class="navBannerText">Spanish</li>
+          <li class="navBannerText">My Pague</li>
+          <li class="navBannerText">Logout</li>
         </ul>
+      </section>
+      <div class="navbar">
         <div class="mobileMenu">
-          <img src="/assets/mobile_menu.svg" alt="" />
+          <span class="menu-bar1"></span>
+          <span class="menu-bar2"></span>
+          <span class="menu-bar3"></span>
         </div>
         <div class="logo">
-          <img src="/assets/logo.svg" alt="" />
+          <a href="./index.html"
+            ><img src="./assets/logo.PNG" alt="logo" class="logo"
+          /></a>
         </div>
+        <dic class="navbarPopContainer">
+          <ul class="mobilePop">
+            <a class="mobileAitem" href="./index.html">
+              <li class="mobileItem">Home</li></a
+            >
+            <a class="mobileAitem" href="#creative">
+              <li class="mobileItem">Seminar Logo</li></a
+            >
+            <a class="mobileAitem" href="#ccglobals">
+              <li class="mobileItem">Conferences</li></a
+            >
+          </ul>
+        </dic>
       </div>
     </nav>
 
     <section id="About">
-      <h3 class="aboutTitle">"Hello! Sharing world"</h3>
-      <h1 class="aboutTitle">CREATIVE COMMONS GLOBAL SUMMINT 2015</h1>
+      <h3 class="aboutTitle">"Hello Detectives Around the World!"</h3>
+      <h1 class="aboutTitle">
+        Criminal Investigation and Forensic Science Seminar 2023
+      </h1>
       <p class="aboutSubtheme">
-        The Global Summit brings together the community of experts, academics,
-        and activists who comprise the Creative Commons affiliate network in a
-        different country every two years. This year, we hope to expand our
-        invitation list including organizations and individuals.
+        The conference will cover a wide range of topics related to criminal
+        investigation, including crime scene analysis, evidence collection and
+        preservation, forensic analysis of physical and digital evidence,
+        interviewing and interrogation techniques, and the legal aspects of
+        criminal investigation.
+      </p>
+      <p class="aboutSubtheme2">
+        The conference is expected to be a comprehensive and informative event,
+        with a wide range of topics related to criminal investigation being
+        covered by expert speakers. These speakers will be presenting on various
+        aspects of the investigative process, from the initial response to a
+        crime scene to the presentation of evidence in court.
       </p>
       <h2 class="aboutContact">
-        Please contact us per Email for nay further questions about CC Global
-        Summit 2015!
+        Please contact us per Email for nay further questions about Criminal
+        Investigation Seminar 2023!
       </h2>
-      <h3 class="aboutEmail">ccsummit2015@cckorea.org</h3>
+      <h3 class="aboutEmail">CIS2023@Microverse.com</h3>
     </section>
 
     <!-- -------------------- Creative Commons -------------------- -->
     <section id="creative">
       <div class="creativeTitleContainer">
-        <h2 class="creativeTitle">Creative Commons Global Summit 2015 Logo</h2>
+        <h2 class="creativeTitle">Criminal Investigation Seminar 2023 Logo</h2>
         <div class="creativeTittleMark"></div>
       </div>
       <h3 class="creativeText">
-        The logo of CC Global Summit 2015 was decided through the logo
-        competition from 8, June to 7, July.
+        The logo of Criminal Investigation Seminar 2023 was decided through the
+        logo competition from 25 to 26, February.
+      </h3>
+      <h3 class="creativeText2">
+        The logo of Criminal Investigation Seminar 2023 was decided through the
+        logo competition from 8, June to 7, July. After online public voting and
+        Selection Committee’s judging process, the logo from Daniel Falcon won
+        the prize. After consultation with Mr. Falcon, we optimized the
+        prize-winning-logo for this year’s summit as follows:
       </h3>
       <img
-        src="/assets/About/about_logo 1.svg"
+        src="./assets/About/about_logo 1.PNG"
         alt="Logo"
         class="creativeLogo"
       />
@@ -84,23 +117,23 @@
     <!-- -------------------- CCGlobals -------------------- -->
     <section id="ccglobals">
       <div class="ccglobalsTitleContainer">
-        <h2 class="ccglobalsTitle">See the past CC Global Summits</h2>
+        <h2 class="ccglobalsTitle">See the past C.I.S</h2>
         <div class="ccglobalsTitleMark"></div>
       </div>
       <h3 class="ccglobalsText">
-        Take a look at the past two CC Global Summits which took place in Buenos
-        Aires and in Warsaw
+        Take a look at the past two Criminal Investigation Seminar which took
+        place in Buenos Aires.
       </h3>
       <div class="ccglobalsGrid">
         <img
-          src="/assets/Ccglobals/about_2011 1.svg"
+          src="./assets/Ccglobals/conference 1.jpg"
           alt=""
-          class="ccglobalsImg"
+          class="ccglobalsImg1"
         />
         <img
-          src="/assets/Ccglobals/about_2013 1.svg"
+          src="./assets/Ccglobals/conference 2.jpg"
           alt=""
-          class="ccglobalsImg"
+          class="ccglobalsImg2"
         />
       </div>
     </section>
@@ -111,51 +144,60 @@
         <div class="partnerTitle">Partner</div>
         <div class="partnerTitleMark"></div>
       </div>
-      <ul class="partnerList1">
-        <li>
-          <img
-            class="partnerIcon"
-            src="/assets/Partner/mozilla 1.png"
-            alt="mozilla"
-          />
-        </li>
-        <li>
-          <img
-            class="partnerIcon"
-            src=" /assets/Partner/googlekorea 1.png"
-            alt="google"
-          />
-        </li>
-        <li>
-          <img class="partnerIcon" src=" /assets/Partner/naver 1.png" alt="" />
-        </li>
-      </ul>
-      <ul class="partnerList2">
-        <li>
-          <img
-            class="partnerIcon"
-            src=" /assets/Partner/daumkakaologo 1.png"
-            alt="daunkakao"
-          />
-        </li>
-        <li>
-          <img
-            class="partnerIcon"
-            src=" /assets/Partner/airbnb 1.png"
-            alt="airbnb"
-          />
-        </li>
-      </ul>
+      <div class="partnerListContainer">
+        <ul class="partnerList1">
+          <li>
+            <img
+              class="partnerIcon"
+              src="./assets/Partner/mozilla 1.png"
+              alt="mozilla"
+            />
+          </li>
+          <li>
+            <img
+              class="partnerIcon"
+              src="./assets/Partner/googlekorea 1.png"
+              alt="google"
+            />
+          </li>
+          <li>
+            <img
+              class="partnerIcon"
+              src="./assets/Partner/naver 1.png"
+              alt=""
+            />
+          </li>
+        </ul>
+        <ul class="partnerList2">
+          <li>
+            <img
+              class="partnerIcon"
+              src="./assets/Partner/daumkakaologo 1.png"
+              alt="daunkakao"
+            />
+          </li>
+          <li>
+            <img
+              class="partnerIcon"
+              src="./assets/Partner/airbnb 1.png"
+              alt="airbnb"
+            />
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- -------------------- Footer -------------------- -->
     <section id="footer">
-      <img src="/assets/Footers/cck-logo1 1.svg" alt="FooterLogo" />
-      <h3 class="footerText">
-        2015 Creative Commons Korea. Some Rights Reserved.
-      </h3>
+      <img src="./assets/logo.PNG" alt="FooterLogo" class="footerMobileLogo" />
+      <img
+        src="./assets/About/about_logo 1.PNG"
+        alt="FooterLogo"
+        class="footerDeskLogo"
+      />
+      <h3 class="footerText">2023 Microverse. Some Rights Reserved.</h3>
     </section>
 
-    <script src="/javacode.js"></script>
+    <script src="./javacode.js"></script>
   </body>
 </html>
